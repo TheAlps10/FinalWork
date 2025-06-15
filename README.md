@@ -1,179 +1,114 @@
-# 团队分工说明
+# 具体内容展开（大模型提示词和前端代码）
 
-- **许婷婷**：舆情报告撰写，查找文献，进度汇总，上台讲解
-- **余可欣**：coze技术使用，具体展开内容汇总，主题稿子
-- **李子林**：可视化数据， markdown 源代码，提交作业
+## 使用的智能体工具 -- coze
 
-# 舆情报告样式检查清单
-
-- 舆情报告格式（参考毕业论文格式）
-- 具体展开内容汇总（各个步骤用到的提示词，截图，代码）
-- markdown 源代码汇总
+## 创建的智能体提示，并增添相关插件：
 
 
-# Assignment1.md 的具体展开内容（三部分）
+## 创建相关舆情分析照片数据集
 
-## 一、使用的智能体工具 -- coze
+## 步骤的提示词
 
-### 创建的智能体提示：
+[回村三天，二舅治好了我的精神内耗](https://www.bilibili.com/video/BV1MN4y177PB?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)
 
-![](pc/1.png)
-![](pc/2.png)
+请你根据以下舆情报告主题：**回村三天二舅治好了我的精神内耗**，搜集B站上面及全网的素材，进行舆情分析研判报告的撰写，过程中需确保信息的真实准确性，按照既定主题进行报告搜集工作。不限于图文等，可以展示视频发布后引起的反响，增添点优秀评论来支撑论点，对于观点分析可以多生成一点分析内容。
 
-### 创建相关舆情分析照片数据集：
+## 读取B站视频链接
 
-![](pc/3.png)
-![](pc/4.png)
+[回村三天，二舅治好了我的精神内耗](https://www.bilibili.com/video/BV1MN4y177PB?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)，[《回村三天 二舅治好了我的精神内耗》刷屏](https://www.bilibili.com/video/BV1rr4y1L7bz?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)，[二舅治愈了我的“精神内耗”，那谁来治愈二舅？](https://www.bilibili.com/video/BV1e94y1D7jN?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)，[“二舅”为何能治好我们的精神内耗？](https://www.bilibili.com/video/BV1Ut4y1G7Nk?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)，[一瘸一拐的二舅，治不了你的精神内耗](https://www.bilibili.com/video/BV1Vt4y1L7UE?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)，生成一份关于这个的数据分析报告。
 
-## 二、所用的脚本（LaTeX）：文章内容
+## 进一步深入分析舆情发展过程
 
+请你现在根据插入的（"二舅"相关话题）的数据集，进行进一步的深入分析舆情发展过程，融合上述生成的文章再叙述一遍。
 
-## 三、每个步骤的提示词
+## 视频成功引发广泛关注和讨论的原因分析
 
+请你接着分析一下这个视频能够成功引发广泛关注和讨论的原因有哪些？
 
+## “二舅”形象对当代年轻人的精神引领作用
 
-[回村三天，二舅治好了我的精神内耗](https://www.bilibili.com/video/BV1MN4y177PB?vd_source=f7827f79bfc1512ea3519b49d4cfaeeb)  
-### 请你根据以下舆情报告主题：**回村三天二舅治好了我的精神内耗**，搜集 B 站上面及全网的素材，进行舆情分析研判报告的撰写，过程中需确保信息的真实准确性，按照既定主题进行报告搜集工作。不限于图文等，可以展示视频发布后引起的反响，增添点优秀评论来支撑论点，对于观点分析可以多生成一点分析内容。
-![](pc/5.png)
-<br>
-<br>
-### 请你现在根据插入的（"二舅"相关话题）的数据集，进行进一步的深入分析舆情发展过程，融合上述生成的文章再叙述一遍。
+请你继续分析“二舅”形象对当代年轻人的精神引领作用，并结合具体事例，说明“二舅”形象对当代年轻人的精神引领作用。
 
-![](pc/6.png)
-<br>
-<br>
-### 请你接着分析一下这个视频能够成功引发广泛关注和讨论的原因有哪些？
+## 如何让“二舅”这样的正能量形象更好地影响年轻人
 
-![](pc/7.png)
-<br>
-<br>
-### 请你增添详细分析该舆情事件主人公的人物形象和精神内涵是什么？
+如何让“二舅”这样的正能量形象更好地影响年轻人，并利用社交媒体平台传播“二舅”这样的正能量形象？
 
-![](pc/8.png)
-<br>
-<br>
-### 分析“二舅”形象对当代年轻人的精神引领作用。
+## 相关话题的文献探讨总结
 
-![](pc/9.png)
-<br>
-<br>
-### 结合具体事例，说明“二舅”形象对当代年轻人的精神引领作用。
+现在增加相关话题的文献探讨，请你进行总结并结合文章内容再重新增添叙述内容。
 
-![](pc/10.png)
-<br>
-<br>
-### 结合具体事例，说明“二舅”形象对当代年轻人价值观的塑造作用。
+## 完善报告格式内容
 
-![](pc/11.png)
-<br>
-<br>
-### 如何让“二舅”这样的正能量形象更好地影响年轻人？
+最后请你按照以下要求完善报告格式内容：
 
-![](pc/12.png)
-<br>
-<br>
-### 如何利用社交媒体平台传播“二舅”这样的正能量形象？
+- **报告摘要**：200~400字，需简要概括报告的核心内容，包括主题和主要观点。
+- **报告结构**：结构清晰，章节逻辑连贯。内容划分明确，无混乱。
+- **报告内容**：观点表述客观、明确，语言简洁，用词精准，主题突出，观点鲜明。表达形式多样，可辅以适量图表。
 
-![](pc/13.png)
-<br>
-<br>
-### 现在增加相关话题的文献探讨，请你进行总结并结合文章内容再重新增添叙述内容。
+## 使用cursor实现可视化前端代码
 
-![](pc/14.png)
-<br>
-<br>
-### 请你将上述所有提到的内容进行整合，叙述生成一篇完整的舆情报告的文章。
+### （1）爬取B站视频热门评论
 
-![](pc/15.png)
+```python
+import requests
+import time
 
-## 代码示例
+def bv2aid(bvid):
+    url = f'https://api.bilibili.com/x/web-interface/view?bvid={bvid}'
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Referer': 'https://www.bilibili.com'
+    }
+    resp = requests.get(url, headers=headers)
+    data = resp.json()
+    if data['code'] == 0:
+        return data['data']['aid']
+    else:
+        raise Exception(f"获取AID失败: {data['message']}")
 
-### HTML 代码（B站弹幕高频词词云图）
+def get_comments(aid, page=1, sort=0):
+    url = 'https://api.bilibili.com/x/v2/reply'
+    params = {
+        'jsonp': 'jsonp',
+        'pn': page,
+        'type': 1,
+        'oid': aid,
+        'sort': sort  # 0: 最新, 2: 热门
+    }
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Referer': 'https://www.bilibili.com'
+    }
+    resp = requests.get(url, params=params, headers=headers)
+    data = resp.json()
+    comments = []
+    if data['code'] == 0 and data['data']['replies']:
+        for reply in data['data']['replies']:
+            uname = reply['member']['uname']
+            message = reply['content']['message']
+            like = reply['like']
+            comments.append(f"用户: {uname}\n评论: {message}\n点赞数: {like}\n{'-'*50}")
+    return comments
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B站弹幕高频词词云图</title>
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/echarts-wordcloud/dist/echarts-wordcloud.min.js"></script>
-</head>
-<body>
-    <div id="main" style="width: 1000px;height:600px;"></div>
-    <script>
-        var myChart = echarts.init(document.getElementById('main'));
-        var data = [
-            { name: '敬二舅', value: 16 },
-            { name: '致敬二舅', value: 10 },
-            { name: '二舅', value: 3 },
-            { name: '牛逼', value: 1 },
-            { name: '很棒！！！', value: 1 },
-            { name: '治愈', value: 1 },
-            { name: '泪目', value: 1 },
-            { name: '头皮发麻', value: 1 },
-            { name: '我哭了', value: 1 },
-            { name: '破防', value: 2 },
-            { name: '二舅关注了！', value: 1 },
-            { name: '二舅牛', value: 1 },
-            { name: '二舅伟大', value: 1 },
-            { name: '活着的力量', value: 1 },
-            { name: '牛！', value: 1 },
-            { name: '活着', value: 1 },
-            { name: '想哭', value: 1 },
-            { name: '镇站之宝！', value: 4 },
-            { name: '三连', value: 4 },
-            { name: '留下足迹', value: 1 }
-        ];
-        var option = {
-            title: {
-                text: 'B站弹幕高频词词云图',
-                left: 'center',
-                textStyle: {
-                    fontSize: 24,
-                    fontWeight: 'bold'
-                }
-            },
-            tooltip: {
-                trigger: 'item',
-                formatter: '{a} <br/>{b} : {c}'
-            },
-            series: [
-                {
-                    name: '高频词',
-                    type: 'wordCloud',
-                    shape: 'circle',
-                    left: 'center',
-                    top: 'center',
-                    width: '70%',
-                    height: '70%',
-                    right: null,
-                    bottom: null,
-                    sizeRange: [12, 55],
-                    rotationRange: [-90, 90],
-                    gridSize: 2,
-                    drawOutOfBound: false,
-                    textStyle: {
-                        normal: {
-                            color: function () {
-                                return 'rgb(' + [
-                                    Math.round(Math.random() * 160),
-                                    Math.round(Math.random() * 160),
-                                    Math.round(Math.random() * 160)
-                                ].join(',') + ')';
-                            }
-                        },
-                        emphasis: {
-                            shadowBlur: 10,
-                            shadowColor: '#333'
-                        }
-                    },
-                    data: data
-                }
-            ]
-        };
-        myChart.setOption(option);
-    </script>
-</body>
-</html>
+def main():
+    bvid = "BV1MN4y177PB"  # 回村三天二舅治好了我的精神内耗
+    print("正在获取AID...")
+    aid = bv2aid(bvid)
+    print(f"AID: {aid}")
+    print("开始获取最热评论...")
+    total_comments = []
+    page = 1
+    while len(total_comments) < 30:
+        comments = get_comments(aid, page, sort=2)  # sort=2为最热
+        if not comments:
+            break
+        total_comments.extend(comments)
+        if len(comments) < 30:
+            break
+        page += 1
+        time.sleep(1)
+    total_comments = total_comments[:30]
+    with open("二舅.txt", "w", encoding="utf-8") as f:
+        for comment in total_comments:
+            f.write(comment + "\n")
+    print(f"已保存{len(total_comments)}条评论到二舅.txt")
